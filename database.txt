@@ -1,0 +1,17 @@
+create database db_midterm_jarugun;
+use db_midterm_jarugun;
+
+SELECT * FROM detail_com;
+
+create table detail_com (
+	Com_ID INT AUTO_INCREMENT PRIMARY KEY,
+    Namebrand varchar(30) Not null,
+    Model varchar(30) Not null,
+    Serilnumber varchar(30) not null,
+    Amount varchar(100) Not null,
+    Price decimal (7,2) Not null,
+    Cpucom varchar (20) Not null,
+    Retention varchar(20) Not null,
+    Harddisk varchar(20) Not null,
+    Image varchar (70)
+);
